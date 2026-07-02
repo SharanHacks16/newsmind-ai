@@ -1,0 +1,4 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{box-sizing:border-box}body{margin:0;min-width:320px;background:#0b1020}body::before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(120deg,rgba(20,184,166,.12),transparent 35%),radial-gradient(circle at 85% 10%,rgba(244,114,182,.08),transparent 24%),radial-gradient(circle at 10% 90%,rgba(250,204,21,.08),transparent 22%)}

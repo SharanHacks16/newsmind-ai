@@ -1,0 +1,2 @@
+﻿import { AlertCircle, CheckCircle2 } from "lucide-react";
+export default function Toast({ message, type = "success" }) { if (!message) return null; const Icon = type === "error" ? AlertCircle : CheckCircle2; return <div className="fixed bottom-5 right-5 z-50 flex max-w-sm items-center gap-3 rounded-lg border border-white/10 bg-slate-950/95 px-4 py-3 shadow-2xl"><Icon className={type === "error" ? "text-rose-300" : "text-teal-300"} size={20}/><p className="text-sm text-slate-100">{message}</p></div>; }
